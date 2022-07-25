@@ -1,9 +1,10 @@
 package com.bilgeadam;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import com.bilgeadam.Person;
 
 class PersonTest {
 
@@ -16,11 +17,11 @@ class PersonTest {
 
 	@Test
 	void test() {
-		person.setName("Tugce");
+		person.setName("Semi");
 		person.setAge(25);
 		person.setSalary(25000);
 
-		assertEquals("Tugce", person.getName());
+		assertEquals("Semi", person.getName());
 
 	}
 
